@@ -55,8 +55,8 @@ if __name__ == "__main__":
     dispatcher.subscribe("login", on_login_broken)
     dispatcher.subscribe("login", on_login_last)
 
-    dispatcher.dispatch("login", "andrew")
+    dispatcher.dispatch("login", "Christine")
 
     dispatcher.unsubscribe("login", on_login_broken)
     print("--- after unsubscribe ---")
-    dispatcher.dispatch("login", "andrew")
+    dispatcher.dispatch("login", "Christine")

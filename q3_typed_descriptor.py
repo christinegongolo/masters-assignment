@@ -41,7 +41,7 @@ if __name__ == "__main__":
         age = Typed(int)
 
     p = Person()
-    p.name = "Andrew"
+    p.name = "Christine"
     p.age = 30
     print(p.name, p.age)
 
